@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29A8A8"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Kullanıcıyı karşılayan geçici ekran -->
+
+    <ImageView
+        android:id="@+id/imageview_icon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:padding="20dp"
+        app:srcCompat="@drawable/icon"
+        tools:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Hoş Geldiniz"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <!-- Su kullanımı verilerini gösteren ana sayfa -->
+    <ProgressBar
+        android:id="@+id/progressBarWaterUsage"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        android:max="100"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:progressTint="@color/progress_bar_color" />
+
+    <TextView
+        android:id="@+id/textViewWaterUsage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Su Kullanımı: 0%"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_bilgi"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:text="Merhaba değerli kullanıcı. Su kullanımınız %2 den büyük olduğu takdirde telefonunuz titreyecek ve uygulama tarafından size bildirim sağlanarak uyarılacaksınız. Çevrenizi doğanızı ve geleceğinizi korumak isterseniz lütfen uygulamanın size sağladığı bildirimlere uyun."
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

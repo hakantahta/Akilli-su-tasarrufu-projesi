@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "148297785367",
+    "firebase_url": "https://suproje-4844a-default-rtdb.firebaseio.com",
+    "project_id": "suproje-4844a",
+    "storage_bucket": "suproje-4844a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148297785367:android:278553ec8f9e692bbb3c52",
+        "android_client_info": {
+          "package_name": "com.example.suproje2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2lTvrlM_hMbDQMh6BA-l_IKTvbr6AFVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
